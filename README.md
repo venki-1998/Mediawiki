@@ -7,3 +7,5 @@ MediaWiki is free and open-source wiki software. Originally developed by Magnus 
 mediawiki-chart - For installing and configuring Mediawiki on a Centos7 container.
 mediawiki-mariadb-chart - For installing and configuring Mariadb for handling Mediawiki database.
 
+# Kubernetes
+The kubernetes objects are defined in following files: deployment.yaml,ingress.yaml,networkpolicy.yaml,pvc.yaml,service.yaml,secrets.yaml,Chart.yaml,values.yaml
