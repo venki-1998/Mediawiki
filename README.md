@@ -10,6 +10,7 @@ mediawiki-mariadb-chart - For installing and configuring Mariadb for handling Me
 Install the Helm chart using command:
 
 helm install mediawiki ./mediawiki-chart -n <NAMESPACE>
+
 helm install database ./mediawiki-mariadb-chart -n <NAMESPACE>
 
 # Kubernetes
