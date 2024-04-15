@@ -9,9 +9,9 @@ mediawiki-mariadb-chart - For installing and configuring Mariadb for handling Me
 
 Install the Helm chart using command:
 
-helm install mediawiki ./mediawiki-chart -n "<NAMESPACE>"
+helm install mediawiki ./mediawiki-chart -n "namespace name"
 
-helm install database ./mediawiki-mariadb-chart -n "<NAMESPACE>"
+helm install database ./mediawiki-mariadb-chart -n "namespace name"
 
 # Kubernetes
 The kubernetes objects are defined in following files: deployment.yaml,ingress.yaml,networkpolicy.yaml,pvc.yaml,service.yaml,secrets.yaml,Chart.yaml,values.yaml
